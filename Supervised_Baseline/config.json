@@ -1,0 +1,31 @@
+{
+  "SOURCE_TRAIN_DIR": "/content/drive/MyDrive/dataset/PlantVillage",
+  "TARGET_TEST_DIR": "/content/drive/MyDrive/dataset/PlantDoc/test",
+  "OUT_DIR": "/content/drive/MyDrive/plant_disease_project/runs_supervised_baseline",
+  "MODEL_NAME": "resnet18",
+  "PRETRAINED": true,
+  "EPOCHS": 10,
+  "BATCH_SIZE": 64,
+  "LR": 0.0003,
+  "WEIGHT_DECAY": 0.0001,
+  "NUM_WORKERS": 2,
+  "USE_AMP": true,
+  "SEED": 42,
+  "classes": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy"
+  ]
+}
