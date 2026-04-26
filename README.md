@@ -57,7 +57,7 @@ Macro-F1 is important in this task because it better reflects class-balanced per
 | FixMatch (Source Init.) | 41.18 | 0.3076 |
 | FixMatch (Fine-Tune Init.) | 40.20 | 0.3103 |
 | DANN + FixMatch (Source Init.) | 38.24 | 0.2847 |
-| DANN + FixMatch (Fine-Tune Init.) | 41.18 | **0.3149** |
+| DANN + FixMatch (Fine-Tune Init.) | **41.18** | **0.3149** |
 
 ### Observations
 
@@ -74,9 +74,9 @@ Macro-F1 is important in this task because it better reflects class-balanced per
 | Method | ResNet-18 Acc. | ResNet-18 Macro-F1 | ResNet-50 Acc. | ResNet-50 Macro-F1 |
 |---|---:|---:|---:|---:|
 | Source-Only | 30.39 | 0.1936 | 34.31 | 0.2361 |
-| Fine-Tuning | **42.16** | 0.3189 | 41.18 | 0.3113 |
+| Fine-Tuning | 42.16 | 0.3189 | 41.18 | 0.3113 |
 | FixMatch (Source Init.) | 37.25 | 0.2880 | 41.18 | 0.3076 |
-| FixMatch (Fine-Tune Init.) | **42.16** | **0.3202** | 40.20 | 0.3103 |
+| FixMatch (Fine-Tune Init.) | 42.16 | 0.3202 | 40.20 | 0.3103 |
 | DANN + FixMatch (Source Init.) | 40.20 | 0.2990 | 38.24 | 0.2847 |
 | DANN + FixMatch (Fine-Tune Init.) | 38.24 | 0.2806 | **41.18** | **0.3149** |
 
